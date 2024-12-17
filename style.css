@@ -1,0 +1,116 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    margin: 30px;
+}
+body {
+  background-color: #F6F6F6;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  color: red;
+  font-family: Verdana, sans-serif;
+}
+
+
+.toshkent {
+  text-align: right;
+  color: #FF00FF;
+  font-size: 24px;
+  font-family: Garamond, serif;
+}
+
+.london {
+  text-align: center;
+  color: blue;
+  font-size: 24px;
+  font-family: Garamond, serif;
+}
+
+.moskva {
+  text-align: justify;
+  color: red;
+  font-size: 24px;
+  font-family: Garamond, serif;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.image {
+  width: 200px;
+  height: 125px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.image.left {
+
+}
+
+
+.info {
+  font-weight: bold;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 5px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: blue;
+}
+.back{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #F6F6F6;
+    background-color: blue;
+}
+.box{
+padding-left: 500px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+@media(max-width:956px){
+    .box{
+        padding-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+}
+
+@media(max-width:756px){
+    .box{
+        padding-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+}
